@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Страница-1" id="BoDOaq66rG4Y5Af1F8yw">
+    <mxGraphModel dx="2605" dy="1585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="Выдача и прием спецодежды и инвентаря на склад" vertex="1">
+          <mxGeometry height="990" width="1530" x="280" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-2" parent="5W-n-PngPOJ-gURCGGhc-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="Монтажник" vertex="1">
+          <mxGeometry height="280" width="1530" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-3" edge="1" parent="5W-n-PngPOJ-gURCGGhc-2" source="5W-n-PngPOJ-gURCGGhc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-4" parent="5W-n-PngPOJ-gURCGGhc-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Прийти на склад &quot;Спецодежды, инвентаря и спецоснастки&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="190" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-5" edge="1" parent="5W-n-PngPOJ-gURCGGhc-2" source="5W-n-PngPOJ-gURCGGhc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-6" parent="5W-n-PngPOJ-gURCGGhc-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Уведомить сотрудника склада о сдаче вещей на время отпуска" vertex="1">
+          <mxGeometry height="80" width="120" x="390" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-7" edge="1" parent="5W-n-PngPOJ-gURCGGhc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="140" as="sourcePoint" />
+            <mxPoint x="190" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-9" parent="5W-n-PngPOJ-gURCGGhc-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Назвать свое ФИО и дату отпуска" vertex="1">
+          <mxGeometry height="80" width="120" x="590" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-10" parent="5W-n-PngPOJ-gURCGGhc-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Последний рабочий день перед отпуском" vertex="1">
+          <mxGeometry height="30" width="60" x="55" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Oz9k54JSxwhG_oiV9-ER-1" parent="5W-n-PngPOJ-gURCGGhc-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="60" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="Oz9k54JSxwhG_oiV9-ER-8" edge="1" parent="5W-n-PngPOJ-gURCGGhc-2" source="Oz9k54JSxwhG_oiV9-ER-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oz9k54JSxwhG_oiV9-ER-7" parent="5W-n-PngPOJ-gURCGGhc-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" value="Расписаться в карточке учёта" vertex="1">
+          <mxGeometry height="80" width="120" x="920" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Oz9k54JSxwhG_oiV9-ER-10" edge="1" parent="5W-n-PngPOJ-gURCGGhc-2" source="Oz9k54JSxwhG_oiV9-ER-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oz9k54JSxwhG_oiV9-ER-9" parent="5W-n-PngPOJ-gURCGGhc-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Сдать спецодежду на хранение" vertex="1">
+          <mxGeometry height="80" width="120" x="1120" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Oz9k54JSxwhG_oiV9-ER-11" parent="5W-n-PngPOJ-gURCGGhc-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="1324" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-11" parent="5W-n-PngPOJ-gURCGGhc-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="Работник склада" vertex="1">
+          <mxGeometry height="450" width="1530" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-12" parent="5W-n-PngPOJ-gURCGGhc-11" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" value="Звонит в отдел кадров для уточнения согласования отпуска сотрудника" vertex="1">
+          <mxGeometry height="80" width="120" x="190" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-13" edge="1" parent="5W-n-PngPOJ-gURCGGhc-11" source="5W-n-PngPOJ-gURCGGhc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-14" parent="5W-n-PngPOJ-gURCGGhc-11" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Результат согласования" vertex="1">
+          <mxGeometry height="80" width="120" x="390" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-16" edge="1" parent="5W-n-PngPOJ-gURCGGhc-11" source="5W-n-PngPOJ-gURCGGhc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="5W-n-PngPOJ-gURCGGhc-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oz9k54JSxwhG_oiV9-ER-3" edge="1" parent="5W-n-PngPOJ-gURCGGhc-11" source="5W-n-PngPOJ-gURCGGhc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-17" parent="5W-n-PngPOJ-gURCGGhc-11" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="590" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-18" parent="5W-n-PngPOJ-gURCGGhc-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Согласован" vertex="1">
+          <mxGeometry height="30" width="60" x="645" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-19" parent="5W-n-PngPOJ-gURCGGhc-11" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="590" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-20" parent="5W-n-PngPOJ-gURCGGhc-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Отказ в приемке вещей" vertex="1">
+          <mxGeometry height="30" width="60" x="585" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-21" parent="5W-n-PngPOJ-gURCGGhc-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="Не согласован" vertex="1">
+          <mxGeometry height="30" width="100" x="560" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Oz9k54JSxwhG_oiV9-ER-13" edge="1" parent="5W-n-PngPOJ-gURCGGhc-11" source="5W-n-PngPOJ-gURCGGhc-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-28" parent="5W-n-PngPOJ-gURCGGhc-11" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" value="&lt;span dir=&quot;ltr&quot; style=&quot;direction: ltr;&quot;&gt;Указывает в Excel-документе факт возврата&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="720" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-31" parent="5W-n-PngPOJ-gURCGGhc-11" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" value="&lt;span dir=&quot;ltr&quot; style=&quot;direction: ltr;&quot;&gt;Записывает данные о возврате спецодежды в карточку учёта&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="920" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-37" parent="5W-n-PngPOJ-gURCGGhc-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="Отдел кадров" vertex="1">
+          <mxGeometry height="240" width="1530" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-38" edge="1" parent="5W-n-PngPOJ-gURCGGhc-37" source="5W-n-PngPOJ-gURCGGhc-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-39" parent="5W-n-PngPOJ-gURCGGhc-37" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" value="Проверяет согласование отпуска сотрудника" vertex="1">
+          <mxGeometry height="80" width="120" x="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-40" parent="5W-n-PngPOJ-gURCGGhc-37" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Сообщает результат сотруднику склада" vertex="1">
+          <mxGeometry height="80" width="120" x="390" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-41" edge="1" parent="5W-n-PngPOJ-gURCGGhc-1" source="5W-n-PngPOJ-gURCGGhc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="5W-n-PngPOJ-gURCGGhc-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="240" />
+              <mxPoint x="250" y="240" />
+            </Array>
+            <mxPoint x="650" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-42" edge="1" parent="5W-n-PngPOJ-gURCGGhc-1" source="5W-n-PngPOJ-gURCGGhc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="5W-n-PngPOJ-gURCGGhc-39" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5W-n-PngPOJ-gURCGGhc-43" edge="1" parent="5W-n-PngPOJ-gURCGGhc-1" source="5W-n-PngPOJ-gURCGGhc-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="5W-n-PngPOJ-gURCGGhc-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oz9k54JSxwhG_oiV9-ER-14" edge="1" parent="5W-n-PngPOJ-gURCGGhc-1" source="5W-n-PngPOJ-gURCGGhc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="Oz9k54JSxwhG_oiV9-ER-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
